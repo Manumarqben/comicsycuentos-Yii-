@@ -20,11 +20,11 @@ if (($url = getenv('DATABASE_URL')) !== false) {
     ];
 } else {
     // Configuración para entorno local:
-    $host = 'localhost';
+    $host = 'ec2-63-33-239-176.eu-west-1.compute.amazonaws.com';
     $port = '5432';
-    $dbname = 'prueba';
-    $username = 'prueba';
-    $password = 'prueba';
+    $dbname = 'dala4p19ngg8su';
+    $username = 'zybwagvwdipkqp';
+    $password = '3519d3741c07a0bfd9b6a5cd6e494d15301a0322eddcd322f268b0e1c72ed3d2';
     $extra = [];
 }
 
